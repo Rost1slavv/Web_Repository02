@@ -31,7 +31,7 @@
 
 .item-wrap {
   position: relative;
-  border: 2px solid gold;
+  border: 2px solid black;
   border-radius: 5px;
   margin: 10px;
 }
@@ -48,7 +48,7 @@
 
 .first {
   background-color: blue;
-  color: white;
+  color: red;
 }
 
 .second {
@@ -58,7 +58,7 @@
 
 .third {
   background-color: blue;
-  color: white;
+  color: red;
 }
 
 
