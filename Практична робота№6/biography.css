@@ -86,6 +86,29 @@ header li{
       text-transform: uppercase;
     }
 
+    .row {
+      width: 100%;
+      display: flex;
+      text-align: center;
+  
+  }
+  
+    .row div{
+      display: flex;
+      align-items: stretch;
+  }
+
+    .item {
+      margin: 5px;
+      border: 1px solid black;
+      border-radius: 5px;
+      padding: 20px 0;
+  }
+    a {
+      font-size: 34px;
+      padding: 20px 0;
+  }
+
     @media (min-width: 992px) {
         .row{
             flex-wrap: wrap;
