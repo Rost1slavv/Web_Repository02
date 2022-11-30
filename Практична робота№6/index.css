@@ -1,29 +1,29 @@
 #id_a:visited {
-  color: aqua;
+  color: blue;
 }
 
 #id_b:visited {
-  color: pink;
+  color: goldenrod;
 }
 
 #id_c:visited {
-  color: orange;
+  color: rgb(7, 8, 59);
 }
 
 #id_d:visited {
-  color: green;
+  color: rgb(6, 92, 6);
 }
 
 #id_a:link {
-  color: black;
+  color: brown;
 }
 
 #id_b:link {
-  color: red;
+  color: rebeccapurple;
 }
 
 #id_c:link {
-  color: purple;
+  color: lawngreen;
 }
 
 #id_d:link {
