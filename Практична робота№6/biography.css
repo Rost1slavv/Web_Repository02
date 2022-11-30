@@ -86,23 +86,20 @@ header li{
       text-transform: uppercase;
     }
 
-@media (min-width: 992px) {
-    .row{
-        flex-wrap: wrap;
+    @media (min-width: 992px) {
+        .row{
+            flex-wrap: wrap;
+        }
+        .col-lg-4 {
+            width: 33.33%;
+        }
+    
+        .col-lg-6 {
+            width: 50%;
+        }
+    
+    
     }
-    .col-lg-4 {
-        width: 33.33%;
-    }
-
-    .col-lg-6 {
-        width: 50%;
-    }
-
-    .col-lg-4, .col-md-6{
-
-    }
-
-}
 
 @media (min-width: 768px) and (max-width: 992px) {
     .row {
