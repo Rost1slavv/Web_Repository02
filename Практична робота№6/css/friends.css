@@ -3,18 +3,18 @@ div{
   width: 100%;
 }
 table{
-    border: 2px solid black;
+    border: 2px solid gold;
   }
 
   th, td {
- border: 2px solid black; 
+ border: 2px solid gold; 
  text-align: center;
  margin-bottom: 2px;
   }
 
 tr:nth-child(odd) {
-   background-color: gray;
-  color: white;
+   background-color: whitesmoke;
+  color: black;
    }
 td:nth-child(3){
   cursor: pointer;
@@ -35,7 +35,7 @@ h2{
 }
 table th{
   text-align: center; 
-  background-color:green ; 
+  background-color:rgb(0, 85, 28) ; 
   color:black; 
   font-weight: bold;
 } 
@@ -68,3 +68,4 @@ table tr td:nth-child(5) {
     th{
         font-size: calc(16px + 10%);
     }
+}
