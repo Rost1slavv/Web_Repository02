@@ -61,27 +61,27 @@ ul li a:focus {
 
 .bi {
   background-color: black;
-  color: white;
+  color: red;
 }
 
 .ch {
-  background-color: blueviolet;
-  color: white;
+  background-color: red;
+  color: black;
 }
 
 .sd {
-  background-color: aqua;
-  color: black;
+  background-color: blue;
+  color: yellow;
 }
 
 .os {
-  background-color: hotpink;
-  color: black;
+  background-color: black;
+  color: whitesmoke;
 }
 
 .uv {
-  background-color: chartreuse;
-  color: maroon;
+  background-color: whitesmoke;
+  color: black;
 }
 
 .flexcontainer {

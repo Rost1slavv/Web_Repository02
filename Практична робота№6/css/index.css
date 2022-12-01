@@ -16,35 +16,35 @@ a {
 }
 
 .link1:link {
-  color: navy;
-}
-
-.link2:link {
-  color: brown;
-}
-
-.link3:link {
   color: red;
 }
 
-.link4:link {
-  color: purple;
-}
-
-.link1:visited {
+.link2:link {
   color: black;
 }
 
+.link3:link {
+  color: blue;
+}
+
+.link4:link {
+  color: yellow;
+}
+
+.link1:visited {
+  color: yellow;
+}
+
 .link2:visited {
-  color: hotpink;
+  color: blue;
 }
 
 .link3:visited {
-  color: green;
+  color: black;
 }
 
 .link4:visited {
-  color: maroon;
+  color: red;
 }
 
 .flexcontainer {
@@ -56,7 +56,7 @@ a {
 .item {
   display: block;
   margin: 15px;
-  border: 2px solid rgb(90, 55, 245);
+  border: 2px solid black;
   border-radius: 15px;
   padding: 10px;
 }

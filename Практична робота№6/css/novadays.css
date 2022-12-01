@@ -13,7 +13,7 @@ h2 {
 
 ul li ul li:nth-child(odd) {
   background-color: gray;
-  color: magenta;
+  color: gold;
   width: 200px;
 }
 
@@ -25,7 +25,7 @@ ul li ul li:nth-child(even) {
 
 ol li ol li:nth-child(4) {
   background-color: black;
-  color: orange;
+  color: gold;
   width: 200px;
 }
 
