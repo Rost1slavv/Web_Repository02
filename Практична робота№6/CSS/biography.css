@@ -11,9 +11,9 @@ h1 {
   font-size: 120%;
 }
 
-#basic_information,
-#childhood,
-#schooldays,
+#information,
+#child,
+#schoo,
 #out_school,
 #university {
   font-size: 144%;
@@ -31,7 +31,7 @@ h1 {
   text-transform: uppercase;
 }
 
-#do_zmisty {
+#Zmist {
   text-align: center;
 }
 
