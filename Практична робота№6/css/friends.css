@@ -1,103 +1,70 @@
-h1{
-  text-align:center;
+div{
+  display: flex; 
+  width: 100%;
+}
+table{
+    border: 2px solid black;
+  }
+
+  th, td {
+ border: 2px solid black; 
+ text-align: center;
+ margin-bottom: 2px;
+  }
+
+tr:nth-child(odd) {
+   background-color: gray;
+  color: white;
+   }
+td:nth-child(3){
+  cursor: pointer;
+   }
+
+td:nth-child(5){
+    cursor: pointer;
+   }
+ h1{
+  text-align: center;
   font-size: 22px;
 }
-
-#nazad{
-font-style: italic;
-}
-
+a:nth-of-type(1){
+  font-style: italic
+} 
 h2{
   text-align: center;
 }
-td:nth-child(odd){
-  background-color: rgba(123, 117, 117, 0.852);
-  color: black;
-}
-table{
-  background-color: whitesmoke;
-  color: black;
-  border: 2px solid gold;
-  width: 1000px;
-  margin-left: 40px;
-  font-weight: 600;
-}
-th{
-  border: 2px solid gold;
-  background-color: green;
-  color: rgb(80, 69, 69);
-}
-tr th{
-  color: yellow;
-}
-td{
-  border: 2px solid gold;
-  padding-left: 40px;
-}
-#Number{
-    text-align: right;
+table th{
+  text-align: center; 
+  background-color:green ; 
+  color:black; 
+  font-weight: bold;
+} 
+table tr td:nth-child(5) {
+ text-align: right;
+ } 
+ table tr td:nth-child(1) {
+  width: 120px;
+   }
+   @media (min-width: 992px) { 
+    td {
+        font-size: calc(16px + 20%);
     }
-    #colhoz1{
-      text-align: right;
+    th{
+        font-size: calc(16px + 30%);
     }
-    #colhoz2{
-      text-align: right;
-    }
-    #colhoz3{
-      text-align: right;
-    }
-    #colhoz4{
-      text-align: right;
-    }
-    #colhoz5{
-      text-align: right;
-    }
-
-  
-
-
-@media (min-width: 992px) {
-  .col-lg-4 {
-    width: 33.33%;
-  }
-
-  .col-lg-6 {
-    width: 50%;
-  }
-
-  th {
-    font-size: 130%;
-  }
-
-  td {
-    font-size: 120%;
-  }
 }
 
-@media (min-width: 768px) and (max-width: 991px) {
-  .col-md-6 {
-    width: 50%;
-  }
+@media (min-width: 768px) and (max-width: 992px) { 
 
-  .col-md-12 {
-    width: 100%;
-  }
-
-  th {
-    font-size: 120%;
-  }
-
-  td {
-    font-size: 110%;
-  }
+    td {
+        font-size: calc(16px + 10%);
+    }
+    th{
+        font-size: calc(16px + 20%);
+    }
 }
 
-@media (max-width: 767px) {
-  .col-sm-12 {
-    width: 100%;
-  }
-
-  th {
-    font-size: 110%;
-  }
-}
+@media (max-width: 768px) {
+    th{
+        font-size: calc(16px + 10%);
+    }
