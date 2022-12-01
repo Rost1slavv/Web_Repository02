@@ -3,6 +3,11 @@ h1 {
   font-size: 24px;
 }
 
+h2 {
+  
+  font-size: 20px;
+}
+
 p {
   font-size: 120%;
 }
@@ -13,35 +18,35 @@ a {
 }
 
 .link1:link {
-  color: navy;
-}
-
-.link2:link {
-  color: brown;
-}
-
-.link3:link {
-  color: red;
-}
-
-.link4:link {
-  color: purple;
-}
-
-.link1:visited {
   color: black;
 }
 
+.link2:link {
+  color: red;
+}
+
+.link3:link {
+  color: rgb(173, 173, 21);
+}
+
+.link4:link {
+  color: blue;
+}
+
+.link1:visited {
+  color: red;
+}
+
 .link2:visited {
-  color: hotpink;
+  color: black;
 }
 
 .link3:visited {
-  color: green;
+  color: blue;
 }
 
 .link4:visited {
-  color: maroon;
+  color: rgb(173, 173, 21);
 }
 
 .flexcontainer {
