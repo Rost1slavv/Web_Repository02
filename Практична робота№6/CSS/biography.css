@@ -60,28 +60,28 @@ ul li a:focus {
 }
 
 .bi {
-  background-color: black;
-  color: white;
+  background-color: blue;
+  color: yellow;
 }
 
 .ch {
-  background-color: blueviolet;
-  color: white;
+  background-color: black;
+  color: red;
 }
 
 .sd {
-  background-color: aqua;
+  background-color: red;
   color: black;
 }
 
 .os {
-  background-color: hotpink;
-  color: black;
+  background-color: black;
+  color: white;
 }
 
 .uv {
-  background-color: chartreuse;
-  color: maroon;
+  background-color: white;
+  color: black;
 }
 
 .flexcontainer {
