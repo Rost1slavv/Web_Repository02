@@ -1,34 +1,34 @@
 .LoremBlock{
     display: flex;
-    background-color: green;
+    background-color: blue;
     align-content: stretch;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column-reverse;
 }
-.secondblock{
+.Shoppinglist_Block{
     display: flex;
     align-content: stretch;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column-reverse;
-    background-color: orange;
+    background-color: yellow;
 }
-.thirdblock{
+.Table_Block{
     display: flex;
     align-content: stretch;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column-reverse;
-    background-color: darkblue;
+    background-color: red;
 }
-.fourblock{
+.Picture_Block{
     display: flex;
     align-content: stretch;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column-reverse;
-    background-color: blueviolet;
+    background-color: black;
 }
 .LoremBlock h3{
     border: 2px solid black;
@@ -40,7 +40,7 @@
 }
 
 
-.secondblock h3{
+.Shoppinglist_Block h3{
     border: 2px solid black;
     border-radius: 5px;
     width:75px ;
@@ -48,7 +48,7 @@
     color: black;
     font-size: 120%;
 }
-.thirdblock h3{
+.Table_Block h3{
     border: 2px solid black;
     border-radius: 5px;
     width:85px ;
@@ -56,7 +56,7 @@
     color: greenyellow;
     font-size: 120%;
 }
-.fourblock h3{
+.Picture_Block h3{
     border: 2px solid black;
     border-radius: 5px;
     width:120px ;
@@ -67,15 +67,15 @@
 .Zagolovok{
 
 }
-#id1{
+#id_1{
     font-size: 140%;
 }
-#id2{
+#id_2{
     font-size: 140%;
 }
-#id3{
+#id_3{
     font-size: 140%;
 }
-#id4{
+#id_4{
     font-size: 140%;
 }
