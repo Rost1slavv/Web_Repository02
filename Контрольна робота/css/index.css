@@ -16,32 +16,32 @@
 }
 
 #Lorem_Block {
-    border: 3px solid white;
+    border: 1px solid white;
     background-color: yellow;
     color: blue;
     font-size: 120%;
-    font-family: 'EB Garamond', serif;
+    font-family: 'EB Garamond', sans-serif;
 }
 #Shoppinglist_Block {
-    border: 3px solid white;
+    border: 1px solid white;
     background-color: #0400ff;
     color: #eeff00;
     font-size: 120%;
-    font-family: 'EB Garamond', serif;
+    font-family: 'EB Garamond', sans-serif;
 }
 #Table_Block {
-    border: 3px solid white;
+    border: 1px solid white;
     background-color: black;
     color: red;
     font-size: 120%;
-    font-family: 'EB Garamond', serif;
+    font-family: 'EB Garamond', sans-serif;
 }
 #Picture_Block {
-    border: 3px solid white;
+    border: 1px solid white;
     background-color: red;
     color: black;
     font-size: 120%;
-    font-family: 'EB Garamond', serif;
+    font-family: 'EB Garamond', sans-serif;
 }
 
 .Main_Block {
