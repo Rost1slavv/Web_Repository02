@@ -42,6 +42,7 @@
     border-radius: 5px;
     margin-bottom: 0px;
     font-size: 120%;
+    flex-direction: row-reverse;
 }
 
 
@@ -53,6 +54,7 @@
     margin-bottom: 0px;
     color: blue;
     font-size: 120%;
+    flex-direction: row-reverse;
 }
 .Table_Block h3{
     border: 2px solid black;
@@ -62,6 +64,7 @@
     margin-bottom: 0px;
     color: black;
     font-size: 120%;
+    flex-direction: row-reverse;
 }
 .Picture_Block h3{
     border: 2px solid red;
@@ -71,6 +74,7 @@
     margin-bottom: 0px;
     color: red;
     font-size: 120%;
+    flex-direction: row-reverse;
 }
 .Zagolovok{
 
