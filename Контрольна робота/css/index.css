@@ -1,3 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
 .Lorem_Block{
     display: flex;
     background-color: blue;
@@ -5,6 +13,10 @@
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: column-reverse;
+    padding: 10px;
+    margin: 20px;
+    width: 300px;
+    margin-top: 25px;
 }
 .Shoppinglist_Block{
     display: flex;
@@ -13,6 +25,10 @@
     align-items: flex-start;
     flex-direction: column-reverse;
     background-color: yellow;
+    padding: 10px;
+    margin: 20px;
+    width: 300px;
+    margin-top: 25px;
 }
 .Table_Block{
     display: flex;
@@ -21,6 +37,10 @@
     align-items: flex-start;
     flex-direction: column-reverse;
     background-color: red;
+    padding: 10px;
+    margin: 20px;
+    width: 300px;
+    margin-top: 25px;
 }
 .Picture_Block{
     display: flex;
@@ -29,6 +49,10 @@
     align-items: flex-start;
     flex-direction: column-reverse;
     background-color: black;
+    padding: 10px;
+    margin: 20px;
+    width: 300px;
+    margin-top: 25px;
 }
 .Lorem_Block h3{
     border: 2px solid yellow;
