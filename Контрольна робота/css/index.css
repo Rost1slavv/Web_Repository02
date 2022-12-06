@@ -17,6 +17,7 @@
     font-family: Lato, sans-serif;
 }
 .Table_Block{
+    border-radius: 3px;
     display: flex;
     align-content: stretch;
     justify-content: flex-start;
@@ -24,6 +25,7 @@
     flex-direction: column-reverse;
     background-color: red;
     font-family: Lato, sans-serif;
+    border: 1px solid black;
 }
 .Picture_Block{
     display: flex;
