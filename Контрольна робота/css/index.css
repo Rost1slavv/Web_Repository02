@@ -1,1 +1,90 @@
-c
+.Lorem_Block{
+    display: flex;
+    background-color: blue;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    font-family: Lato, sans-serif;
+}
+.Shoppinglist_Block{
+    display: flex;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    background-color: yellow;
+    font-family: Lato, sans-serif;
+}
+.Table_Block{
+    display: flex;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    background-color: red;
+    font-family: Lato, sans-serif;
+}
+.Picture_Block{
+    display: flex;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    background-color: black;
+    font-family: Lato, sans-serif;
+}
+.Lorem_Block h3{
+    border: 2px solid yellow;
+    width: 55px;
+    color: yellow;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
+
+
+.Shoppinglist_Block h3{
+    border: 2px solid blue;
+    border-radius: 5px;
+    width:75px ;
+    padding: 5px;
+    color: blue;
+    font-size: 120%;
+}
+.Table_Block h3{
+    border: 2px solid black;
+    border-radius: 5px;
+    width:85px ;
+    padding: 5px;
+    color: black;
+    font-size: 120%;
+}
+.Picture_Block h3{
+    border: 2px solid red;
+    border-radius: 5px;
+    width:120px ;
+    padding: 5px;
+    color: red;
+    font-size: 120%;
+}
+.Zagolovok{
+
+    font-family: Roboto, sans-serif;
+}
+#id_1{
+    font-size: 140%;
+    font-family: "Zen Dots", sans-serif;
+}
+#id_2{
+    font-size: 140%;
+    font-family: "Zen Dots", sans-serif;
+}
+#id_3{
+    font-size: 140%;
+    font-family: "Zen Dots", sans-serif;
+}
+#id_4{
+    font-size: 140%;
+    font-family: "Zen Dots", sans-serif;
+}
