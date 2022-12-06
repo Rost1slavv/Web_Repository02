@@ -1,120 +1,91 @@
-.Lorem_Block{
-    display: flex;
+#id_1 {
     background-color: blue;
-    align-content: stretch;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column-reverse;
-    font-family: Lato, sans-serif;
-}
-.Shoppinglist_Block{
-    display: flex;
-    align-content: stretch;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column-reverse;
-    background-color: yellow;
-    font-family: Lato, sans-serif;
-}
-.Table_Block{
-    border: 1px solid black;
-    border-radius: 3px;
-    display: flex;
-    align-content: stretch;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column-reverse;
-    background-color: red;
-    font-family: Lato, sans-serif;
-    border: 1px solid black;
-}
-.Picture_Block{
-    display: flex;
-    align-content: stretch;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column-reverse;
-    background-color: black;
-    font-family: Lato, sans-serif;
-}
-.Lorem_Block h3{
-    border: 2px solid yellow;
-    width: 55px;
     color: yellow;
-    padding: 10px;
-    border-radius: 5px;
-    margin-bottom: 0px;
-    font-size: 120%;
-    flex-direction: row-reverse;
 }
-
-
-.Shoppinglist_Block h3{
-    border: 2px solid blue;
-    border-radius: 5px;
-    width:85px ;
-    padding: 5px;
-    margin-bottom: 0px;
+#id_2 {
+    background-color: yellow;
     color: blue;
-    font-size: 120%;
-    flex-direction: row-reverse;
 }
-.Table_Block h3{
-    border: 2px solid black;
-    border-radius: 5px;
-    width:95px ;
-    padding: 5px;
-    margin-bottom: 0px;
-    color: black;
-    font-size: 120%;
-    flex-direction: row-reverse;
-}
-.Picture_Block h3{
-    border: 2px solid red;
-    border-radius: 5px;
-    width:140px ;
-    padding: 5px;
-    margin-bottom: 0px;
+#id_3 {
+    background-color: black;
     color: red;
+}
+#id_4 {
+    background-color: red;
+    color: black;
+}
+
+#Lorem_Block {
+    border: 2px solid black;
+    background-color: darkslategrey;
+    color: #ffffff;
     font-size: 120%;
-    flex-direction: row-reverse;
+    font-family: 'EB Garamond', serif;
 }
-.Zagolovok{
+#Shoppinglist_Block {
+    border: 2px solid black;
+    background-color: #0400ff;
+    color: #eeff00;
+    font-size: 120%;
+    font-family: 'EB Garamond', serif;
+}
+#Table_Block {
+    border: 2px solid black;
+    background-color: #d4ff00;
+    color: #801414;
+    font-size: 120%;
+    font-family: 'EB Garamond', serif;
+}
+#Picture_Block {
+    border: 2px solid black;
+    background-color: maroon;
+    color: #80ff00;
+    font-size: 120%;
+    font-family: 'EB Garamond', serif;
+}
 
-    font-family: Roboto, sans-serif;
-}
-#id_1{
-    font-size: 140%;
-    font-family: Kenia, sans-serif;
-}
-#id_2{
-    font-size: 140%;
-    font-family: Kenia, sans-serif;
-}
-#id_3{
-    font-size: 140%;
-    font-family: Kenia, sans-serif;
-}
-#id_4{
-    font-size: 140%;
-    font-family: Kenia, sans-serif;
+.Main_Block {
+    position: relative;
+    float: right;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-@media (min-width: 992px) {
-    .col-lg-6 {
-        width: 50%;
-        display: flex;
-        justify-content: center;
+.s1 {
+    font-family: 'Caveat', cursive;
+}
+
+table, th, td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+@media (min-width: 1200px) {
+    .col-vlg-3 {
+        width: 25%;
     }
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
-    .col-md-12 {
+@media (min-width: 992px) and (max-width: 1199.99px) {
+    .col-lg-4 {
+        width: 33.33%;
+    }
+    .col-lg-12 {
         width: 100%;
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 991.99px) { 
+    .col-md-6 {
+        width: 50%;
+    }
+}
+
+@media (max-width: 767.99px) {
+    .main{
+        flex-direction: column;
+    }
     .col-sm-12 {
         width: 100%;
     }
