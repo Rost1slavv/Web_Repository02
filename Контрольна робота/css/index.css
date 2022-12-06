@@ -99,3 +99,23 @@
     font-size: 140%;
     font-family: Kenia, sans-serif;
 }
+
+@media (min-width: 992px) {
+    .col-lg-6 {
+        width: 50%;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .col-sm-12 {
+        width: 100%;
+    }
+}
