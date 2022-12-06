@@ -47,7 +47,7 @@
 .Shoppinglist_Block h3{
     border: 2px solid blue;
     border-radius: 5px;
-    width:75px ;
+    width:85px ;
     padding: 5px;
     color: blue;
     font-size: 120%;
@@ -55,7 +55,7 @@
 .Table_Block h3{
     border: 2px solid black;
     border-radius: 5px;
-    width:100px ;
+    width:95px ;
     padding: 5px;
     color: black;
     font-size: 120%;
@@ -63,7 +63,7 @@
 .Picture_Block h3{
     border: 2px solid red;
     border-radius: 5px;
-    width:160px ;
+    width:140px ;
     padding: 5px;
     color: red;
     font-size: 120%;
