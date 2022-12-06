@@ -45,21 +45,24 @@ h3{
     font-size: 120%;
     align-items: flex-start;
     font-family: 'EB Garamond', sans-serif;
+    align-self:flex-end;
+    
 }
 #Shoppinglist_Block {
     border: 1px solid white;
     background-color: #0400ff;
     color: #eeff00;
     font-size: 120%;
-    align-items: flex-start;
     font-family: 'EB Garamond', sans-serif;
+    align-self:flex-end;
+    
 }
 #Table_Block {
     border: 1px solid white;
     background-color: black;
     color: red;
     font-size: 120%;
-    align-items: flex-start;
+   align-self:flex-end;
     font-family: 'EB Garamond', sans-serif;
 }
 #Picture_Block {
@@ -67,7 +70,7 @@ h3{
     background-color: red;
     color: black;
     font-size: 120%;
-    align-items: flex-start;
+    align-self:flex-end;
     font-family: 'EB Garamond', sans-serif;
 }
 
