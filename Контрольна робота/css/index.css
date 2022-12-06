@@ -1,1 +1,81 @@
+.LoremBlock{
+    display: flex;
+    background-color: green;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+}
+.secondblock{
+    display: flex;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    background-color: orange;
+}
+.thirdblock{
+    display: flex;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    background-color: darkblue;
+}
+.fourblock{
+    display: flex;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+    background-color: blueviolet;
+}
+.LoremBlock h3{
+    border: 2px solid black;
+    width: 55px;
+    color: darkred;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+}
 
+
+.secondblock h3{
+    border: 2px solid black;
+    border-radius: 5px;
+    width:75px ;
+    padding: 5px;
+    color: black;
+    font-size: 120%;
+}
+.thirdblock h3{
+    border: 2px solid black;
+    border-radius: 5px;
+    width:85px ;
+    padding: 5px;
+    color: greenyellow;
+    font-size: 120%;
+}
+.fourblock h3{
+    border: 2px solid black;
+    border-radius: 5px;
+    width:120px ;
+    padding: 5px;
+    color: aqua;
+    font-size: 120%;
+}
+.Zagolovok{
+
+}
+#id1{
+    font-size: 140%;
+}
+#id2{
+    font-size: 140%;
+}
+#id3{
+    font-size: 140%;
+}
+#id4{
+    font-size: 140%;
+}
