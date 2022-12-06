@@ -57,11 +57,11 @@
     font-size: 120%;
 }
 .Picture_Block h3{
-    border: 2px solid white;
+    border: 2px solid red;
     border-radius: 5px;
     width:120px ;
     padding: 5px;
-    color: white;
+    color: red;
     font-size: 120%;
 }
 .Zagolovok{
