@@ -16,30 +16,30 @@
 }
 
 #Lorem_Block {
-    border: 1px solid gold;
+    border: 4px solid gold;
     background-color: yellow;
     color: blue;
     font-size: 120%;
     font-family: 'EB Garamond', serif;
 }
 #Shoppinglist_Block {
-    border: 1px solid gold;
+    border: 4px solid gold;
     background-color: #0400ff;
     color: #eeff00;
     font-size: 120%;
     font-family: 'EB Garamond', serif;
 }
 #Table_Block {
-    border: 1px solid black;
-    background-color: #d4ff00;
-    color: #801414;
+    border: 4px solid black;
+    background-color: black;
+    color: black;
     font-size: 120%;
     font-family: 'EB Garamond', serif;
 }
 #Picture_Block {
-    border: 1px solid black;
-    background-color: maroon;
-    color: #80ff00;
+    border: 4px solid black;
+    background-color: red;
+    color: black;
     font-size: 120%;
     font-family: 'EB Garamond', serif;
 }
