@@ -55,7 +55,7 @@
 .Table_Block h3{
     border: 2px solid black;
     border-radius: 5px;
-    width:85px ;
+    width:100px ;
     padding: 5px;
     color: black;
     font-size: 120%;
@@ -63,7 +63,7 @@
 .Picture_Block h3{
     border: 2px solid red;
     border-radius: 5px;
-    width:120px ;
+    width:160px ;
     padding: 5px;
     color: red;
     font-size: 120%;
@@ -73,18 +73,18 @@
     font-family: Roboto, sans-serif;
 }
 #id_1{
-    font-size: 120%;
+    font-size: 140%;
     font-family: Kenia, sans-serif;
 }
 #id_2{
-    font-size: 120%;
+    font-size: 140%;
     font-family: Kenia, sans-serif;
 }
 #id_3{
-    font-size: 120%;
+    font-size: 140%;
     font-family: Kenia, sans-serif;
 }
 #id_4{
-    font-size: 120%;
+    font-size: 140%;
     font-family: Kenia, sans-serif;
 }
