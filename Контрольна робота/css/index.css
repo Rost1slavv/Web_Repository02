@@ -23,6 +23,7 @@ h3{
     background-color: yellow;
     color: blue;
     font-size: 120%;
+    align-self:flex-end;
     font-family: 'EB Garamond', sans-serif;
 }
 #Shoppinglist_Block {
@@ -30,6 +31,7 @@ h3{
     background-color: #0400ff;
     color: #eeff00;
     font-size: 120%;
+    align-self:flex-end;
     font-family: 'EB Garamond', sans-serif;
 }
 #Table_Block {
@@ -37,6 +39,7 @@ h3{
     background-color: black;
     color: red;
     font-size: 120%;
+    align-self:flex-end;
     font-family: 'EB Garamond', sans-serif;
 }
 #Picture_Block {
@@ -44,6 +47,7 @@ h3{
     background-color: red;
     color: black;
     font-size: 120%;
+    align-self:flex-end;
     font-family: 'EB Garamond', sans-serif;
 }
 
