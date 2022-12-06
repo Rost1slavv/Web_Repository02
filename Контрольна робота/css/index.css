@@ -4,7 +4,7 @@
     align-content: stretch;
     justify-content: flex-start;
     align-items: flex-start;
-    flex-direction: column-reverse;
+    flex-direction: column;
     font-family: Lato, sans-serif;
 }
 .Shoppinglist_Block{
@@ -12,7 +12,7 @@
     align-content: stretch;
     justify-content: flex-start;
     align-items: flex-start;
-    flex-direction: column-reverse;
+    flex-direction: column;
     background-color: yellow;
     font-family: Lato, sans-serif;
 }
@@ -21,7 +21,7 @@
     align-content: stretch;
     justify-content: flex-start;
     align-items: flex-start;
-    flex-direction: column-reverse;
+    flex-direction: column;
     background-color: red;
     font-family: Lato, sans-serif;
 }
@@ -30,7 +30,7 @@
     align-content: stretch;
     justify-content: flex-start;
     align-items: flex-start;
-    flex-direction: column-reverse;
+    flex-direction: column;
     background-color: black;
     font-family: Lato, sans-serif;
 }
