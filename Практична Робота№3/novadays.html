@@ -4,25 +4,35 @@
     <title>Сьогодення</title>
 		<meta charset="utf-8">
     <style>
-        ul  li:nth-child(odd) {
-          background-color: gray;
-        }
-        ol :nth-child(3):hover{
-          background-color: gray;
-          cursor: pointer;
-        }
-        ol :nth-child(5):hover{
-          background-color: gray;
-          cursor: pointer;
-        }
-        ol :nth-child(4):hover{
-          background-color: green;
-        }
+        ul li ul li:nth-child(odd) {
+        background-color: gray;
+         color: gold;
+
+}
+
+        ul li ul li:nth-child(even) {
+        background-color: white;
+        color: black;
+}
+
+        ol li ol li:nth-child(4) {
+        background-color: black;
+        color: gold;
+}
+
+       ol li ol li:nth-child(3) {
+       cursor: pointer;
+}
+
+       ol li ol li:nth-child(5) {
+       cursor: pointer;
+}
         </style>
         </head> 
           <body>   
             <h1>Сьогодення Бащука Ростислава Юрійовича</h1>
     <a href="index.html" title="Назад на головну">Назад на головну</a>
+    <div class="col-lg-6 col-md-12 col-sm-12"></div>
     <h2> Мій типовий список покупок: </h2>
     <ul>
       <li>Молочні продукти:
@@ -68,6 +78,7 @@
         </ul>
       </li>
     </ul>
+    <div class=" col-lg-6 col-md-12 col-sm-12"></div>
     <h2>Мій улюблений десерт - шоколадне морозиво</h2>
     <ol>
       <li>Інгрідієнти:
